@@ -1,0 +1,105 @@
+.image{
+    width : 200px; 
+    display : block;
+    margin-left : auto; 
+    margin-right : auto ; 
+    
+}
+
+.title_1 {
+    font-size : 50px;
+    color : red;
+    text-align : center;
+    
+}
+
+.content{
+    font-size: 30px ;
+    text-align : center;
+    
+}
+.box {
+    
+    padding: 50px 3;
+    width : 300px;
+    height : 300px ; 
+    background-color : cadetblue ; 
+    margin : 10px ;
+    
+    border: 5px dotted black; 
+    border-radius: 15px ;
+    display : block;
+    margin-left : auto; 
+    margin-right : auto ;       
+    Font-size : 20px ; 
+    font-family : sans-serif ;
+    color : white ;
+    font-style: oblique ; 
+    box-shadow : 5px 5px 10px gray;
+    text-align : center ; 
+    
+}
+
+
+
+.header {
+    width : 100% ; 
+    height : 50px ; 
+    background : aquamarine ; 
+    box-shadow : 5px 5px 10px gray;
+    
+}
+
+.left-menu {
+    width : 20% ;
+    height : 400px ; 
+    background : cornflowerblue  ;
+    display : inline-block;
+    vertical-align : top
+/*    float : left ;*/
+    
+}
+
+.right {
+    width : 80%;
+    height : 400px ; 
+    background : coral ;
+    display : inline-block;
+/*    vertical-align : bottom*/
+/*    float : left ;*/
+}
+
+.footer {
+    width : 100%;
+    height : 100px ;
+    background-color : gray; 
+/*    clear:both */
+}
+
+.line-space {
+   height: 1px 
+}
+
+.left_Box {
+    width: 72% ; 
+    height : 300px ; 
+    vertical-align : top ; 
+    background-color : blanchedalmond ; 
+    display : inline-block;
+}
+
+.right_Box {
+    width: 23% ; 
+    height : 300px ; 
+    vertical-align : top ; 
+    background-color : aqua ; 
+    display : inline-block;
+}
+
+.left_Box_in {
+    width: 50% ; 
+    height : 50px ; 
+    vertical-align : top ; 
+    background-color : aquamarine ; 
+    display : inline-block;
+}

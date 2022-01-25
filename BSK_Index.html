@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+    
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link href="css/CRM_Layout.css" rel="stylesheet">
+  <link href="fontawesome/css/all.min.css" rel="stylesheet" />
+    
+</head>
+    
+<body>
+      
+<!--    memu bar -->
+    
+    <div> 
+        <div class="menubar">
+            <i class="fas fa-save hover" title="Save"></i>
+            <i class="fas fa-share-square" title="Save as New"></i>
+            <i class="fas fa-search" title="Search"></i>
+            <i class="fas fa-history" title="Previous Record"></i>
+            <i class="fas fa-plus" title="Add"></i>
+            <i class="fas fa-minus" title="Delete"></i>
+            
+        </div>
+    </div>
+    
+    <div class="Container"> 
+        
+<!--        Customer Information Division -->
+        <div class = "container1">
+            <div class="below_Label">
+                <h1 class="Title">CUSTOMER INFORMATION</h1>
+
+                <label >기관명 </label>
+                <input class = "inputbox1" type="text" id="fname" name="orgname">
+                <div style="clear:both"></div>
+                
+                <label for="address">주소 </label>  
+                <input class = "inputbox1" type="text" id="fname" name="address">
+                <div style="clear:both"></div>
+
+                <label for="unitlocation">장비위치</label> 
+                <input class = "inputbox1" type="text" id="fname" name="unitlocation">
+                <div style="clear:both"></div>
+
+                <label for="contact">담당자 </label> 
+                <input class = "inputbox1_left" type="text" id="fname" name="contact1">
+                <input class = "inputbox1_right" type="text" id="fname" name="contact2">
+                <div style="clear:both"></div>
+
+                <label for="email">E-mail </label>
+                <input class = "inputbox1_left" type="email" id="fname" name="email1">
+                <input class = "inputbox1_right" type="email" id="fname" name="email2">
+                <div style="clear:both"></div>
+
+                <label for="tel">TEL. </label> 
+                <input class = "inputbox1_left" type="text" id="fname" name="tel1">
+                <input class = "inputbox1_right" type="text" id="fname" name="tel2">
+                <div style="clear:both"></div>
+
+                <label for="fax">Fax. </label> 
+                <input class = "inputbox1_left" type="text" id="fname" name="fax1">
+                <input class = "inputbox1_right" type="text" id="fname" name="fax2">
+                <div style="clear:both"></div>
+
+                <label for="cp">C.P. </label>  
+                <input class = "inputbox1_left" type="text" id="fname" name="cp1">
+                <input class = "inputbox1_right" type="text" id="fname" name="cp2">
+                <div style="clear:both"></div>
+            </div>
+        </div>
+<!--Distributor Division         -->
+        <div class = "container1">
+            <div class="below_Label"> 
+                
+                <h1 class="Title">DISTRIBUTOR INFORMATION</h1>
+
+                <label for="modelname">상호</label>
+                <input class = "inputbox1_left" type="text" id="fname" name="tel1">
+                <input class = "inputbox1_right" type="text" id="fname" name="tel2">
+                <div style="clear:both"></div>
+
+                <label for="modelname">담당자</label>
+                <input class = "inputbox1_left" type="text" id="fname" name="tel1">
+                <input class = "inputbox1_right" type="text" id="fname" name="tel2">
+                <div style="clear:both"></div>
+                
+                <label for="modelname">휴대폰</label>
+                <input class = "inputbox1_left" type="text" id="fname" name="tel1">
+                <input class = "inputbox1_right" type="text" id="fname" name="tel2">
+                <div style="clear:both"></div>
+                
+                <label for="modelname">이메일 </label>
+                <input class = "inputbox1_left" type="text" id="fname" name="tel1">
+                <input class = "inputbox1_right" type="text" id="fname" name="tel2">
+                <div style="clear:both"></div>
+
+                
+                <label for="modelname">상호</label>
+                <input class = "inputbox1_left" type="text" id="fname" name="tel1">
+                <input class = "inputbox1_right" type="text" id="fname" name="tel2">
+                <div style="clear:both"></div>
+
+                <label for="modelname">담당자</label>
+                <input class = "inputbox1_left" type="text" id="fname" name="tel1">
+                <input class = "inputbox1_right" type="text" id="fname" name="tel2">
+                <div style="clear:both"></div>
+                
+                <label for="modelname">휴대폰</label>
+                <input class = "inputbox1_left" type="text" id="fname" name="tel1">
+                <input class = "inputbox1_right" type="text" id="fname" name="tel2">
+                <div style="clear:both"></div>
+                
+                <label for="modelname">이메일 </label>
+                <input class = "inputbox1_left" type="text" id="fname" name="tel1">
+                <input class = "inputbox1_right" type="text" id="fname" name="tel2">
+                <div style="clear:both"></div>
+                
+            </div>
+        </div>
+        
+<!--       Instrument Information & PM Record Division -->
+        <div class = "container1">
+            <div class="below_Label below_inputbox30p">
+                <h1 class="Title">INSTRUMENT INFORMATION</h1>
+
+                <label for="modelname">모델명  </label>
+                <input type="text" id="fname" name="modelname">
+                <label for="serialno">SerialNo  </label>
+                <input type="text" id="fname" name="serialno">
+                <div style="clear:both"></div>
+
+                <label for="installationdate">설치일자 </label>
+                <input type="text" id="fname" name="installationdate">
+                <label for="warrantyExpDate">보증만료일  </label>
+                <input type="text" id="fname" name="warrantyExpDate">
+                <div style="clear:both"></div>
+                
+                <label for="salesOrRent" >판매/임대  </label>
+                <input type="text" id="fname" name="salesOrRent">
+                <label for="NewOrOld">신규/중고  </label>
+                <input type="text" id="fname" name="NewOrOld">
+                <div style="clear:both"></div>
+                
+                <label for="PC">BSK PC  </label>
+                <input type="text" id="fname" name="salesOrRent">
+                <label for="NewOrOld">보증적용  </label>
+                <input type="text" id="fname" name="NewOrOld">
+                <div style="clear:both"></div>
+
+                <h1 class="Inner_Title">HISTORICAL PM RECORD</h1>
+                
+                <table class ="PMTable"> 
+                    <tr> 
+                        <td> 2021-01-05 </td>
+                        <td> 2021-01-05 </td>
+                        <td> 2021-01-05 </td>
+                        <td> 2021-01-05 </td>                            
+                    </tr>
+                    <tr> 
+                        <td> 2021-01-05 </td>
+                        <td> 2021-01-05 </td>
+                        <td> 2021-01-05 </td>
+                        <td> 2021-01-05 </td>                            
+                    </tr>
+                    <tr> 
+                        <td> 2021-01-05 </td>
+                        <td> 2021-01-05 </td>
+                        <td> 2021-01-05 </td>
+                        <td> 2021-01-05 </td>                            
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+<!--Environmental information division -->
+          <div class = "container1">
+            <div>
+                <h1 class="Title">PC, SOFTWARE, CAL, CONTROLS</h1>
+
+                <table class ="EnvTable_6div"> 
+                    <tr> 
+                        <td> 인터넷연결 </td>
+                        <td class="tdwhite"> Yes/No  </td>
+                        <td> 인터페이스  </td>
+                        <td class="tdwhite"> Yes/No </td>
+                        <td> USB/Serial </td>
+                        <td class="tdwhite"> USB </td>                        
+                    </tr>
+                    <tr>    
+                        <td> Desktop </td>
+                        <td class="tdwhite"> Yes/No  </td>
+                        <td> 건강검진  </td>
+                        <td class="tdwhite"> Yes/No </td>
+                        <td> 외부정도 </td>
+                        <td class="tdwhite"> Yes/No </td>                              
+                    </tr>
+                    <tr> 
+                        <td> 원격연결 </td>
+                        <td class="tdwhite"> Seetrol  </td>
+                        <td> OS_Ver  </td>
+                        <td class="tdwhite"> Win10_64  </td>
+                        <td>   </td>
+                        <td class="tdwhite">  </td>                             
+                    </tr>
+                    <tr height =15px> 
+                        <td>  </td>
+                        <td>  </td>
+                        <td>   </td>
+                        <td>  </td>
+                        <td>   </td>
+                        <td>  </td>
+                    </tr>
+                    <tr> 
+                        <td> UserSWVer </td>
+                        <td class="tdwhite"> V 5.7.0  </td>
+                        <td> SerSWVer  </td>
+                        <td class="tdwhite"> V x.x.x </td>
+                        <td> FirmwareV  </td>
+                        <td class="tdwhite"> 2.x.x </td>                             
+                    </tr>
+                    <tr height = 15px> 
+                        <td>  </td>
+                        <td>  </td>
+                        <td>   </td>
+                        <td>  </td>
+                        <td>   </td>
+                        <td>  </td>
+                    </tr>
+                    <tr> 
+                        <td> CAL Type </td>
+                        <td class="tdwhite"> Human  </td>
+                        <td> CAL Type </td>
+                        <td class="tdwhite"> CRP </td>
+                        <td> CAL Type </td>
+                        <td class="tdwhite"> RF </td>                             
+                    </tr>
+                    <tr> 
+                        <td> Cal Lot# </td>
+                        <td class="tdwhite"> 120 XA </td>
+                        <td> Cal Lot#  </td>
+                        <td class="tdwhite"> 171 </td>
+                        <td> Cal Lot#   </td>
+                        <td class="tdwhite"> 200 </td>                             
+                    </tr>
+                    <tr> 
+                        <td> Con1 Lot#  </td>
+                        <td class="tdwhite"> 031 XA  </td>
+                        <td> Con1 Lot#  </td>
+                        <td class="tdwhite"> 068 XA </td>
+                        <td> Con1 Lot#  </td>
+                        <td class="tdwhite"> 015 </td>                             
+                    </tr>
+                    <tr> 
+                        <td> Con2 Lot#  </td>
+                        <td class="tdwhite"> 024 XA  </td>
+                        <td> Con2 Lot#  </td>
+                        <td class="tdwhite"> 067 XA </td>
+                        <td> Con2 Lot# </td>
+                        <td class="tdwhite"> 016 </td>                             
+                    </tr>
+                    
+                </table>
+            </div>
+        </div>
+    </div>
+    
+   <div class="Container"> 
+       
+<!--       MEMO, Slope Configuration, Message to FSE -->
+        <div class = "container1">
+            <div class="below_Label">
+                <h1 class="Title">MEMO, MSG to FSE</h1>
+
+                <label>고객메모 </label>
+                <textarea class = "textarea_memo"> </textarea>
+                <div style="clear:both"></div>
+
+                <label> Message to FSE  </label>
+                <textarea class = "textarea_memo"> </textarea>
+                
+                <div style="clear:both"></div>
+                
+                
+            </div>
+        </div>
+
+       <div class = "container1">
+            <div class="below_Label">
+                <h1 class="Title">SLOPE CONFIGURATION. FILE CONTROLS</h1>
+
+                <div> 
+                    <label>SLOPE </label>
+                        <table class ="slopeTable"> 
+                            <tr> 
+                                <th> ITEM </th>
+                                <th> ax </th>
+                                <th> b </th>
+                            </tr>
+                            <tr> 
+                                <td> Glu </td>
+                                <td> 1 </td>
+                                <td> +0.5 </td>
+                            </tr>
+                            <tr> 
+                                <td> Crea </td>
+                                <td> +0.95 </td>
+                                <td> -0.5 </td>
+                            </tr>
+                            <tr> 
+                                <td> T-Bil </td>
+                                <td> 1.05 </td>
+                                <td> -0.5 </td>
+                            </tr>
+                        </table>
+                </div>
+                <div style="clear:both"></div>
+
+                <div> 
+                    <label> LIS OF FILES </label>
+                        <table class ="singlelinetable"> 
+                            <tr> 
+                                <td> SR#0099 [2021-10-10] 88.병원 Service Report.pdf </td>
+                            </tr>
+                            <tr> 
+                                <td> SR#0099 [2021-10-10] 88.병원 Service Report.pdf </td>
+                            </tr>
+                            <tr> 
+                                <td> SR#0099 [2021-10-10] 88.병원 Service Report.pdf </td>
+                            </tr>
+                            <tr> 
+                                <td> SR#0099 [2021-10-10] 88.병원 Service Report.pdf </td>
+                            </tr>
+                        </table>
+                </div>
+                <div style="clear:both"></div>
+                
+                
+            </div>
+        </div>
+       
+        <div class = "container1">
+            <div class="below_Label below_inputbox30p">
+                <h1 class="Title">SERVICE/WORK REQUEST</h1>
+
+                <label for="modelname">모델명  </label>
+                <input type="text" id="fname" name="modelname">
+                <label for="serialno">SerialNo  </label>
+                <input type="text" id="fname" name="serialno">
+                <div style="clear:both"></div>
+
+                <label for="installationdate">설치일자 </label>
+                <input type="text" id="fname" name="installationdate">
+                <label for="warrantyExpDate">보증만료일  </label>
+                <input type="text" id="fname" name="warrantyExpDate">
+                <div style="clear:both"></div>
+                
+                <label for="salesOrRent" >판매/임대  </label>
+                <input type="text" id="fname" name="salesOrRent">
+                <label for="NewOrOld">신규/중고  </label>
+                <input type="text" id="fname" name="NewOrOld">
+                <div style="clear:both"></div>
+                
+                <label for="PC">BSK PC  </label>
+                <input type="text" id="fname" name="salesOrRent">
+                <label for="NewOrOld">보증적용  </label>
+                <input type="text" id="fname" name="NewOrOld">
+                <div style="clear:both"></div>
+                
+            </div>
+        </div>
+    
+        <div class = "container1">
+            <div class="below_Label below_inputbox30p"> 
+                <h1 class="Title">DISTRIBUTOR INFORMATION</h1>
+
+                <label for="modelname">모델명  </label>
+                <input type="text" id="fname" name="modelname">
+                <label for="serialno">SerialNo  </label>
+                <input type="text" id="fname" name="serialno">
+                <div style="clear:both"></div>
+                                
+
+                <label for="installationdate" class="label">설치일자 </label>
+                <input class = "inputbox_30p" type="text" id="fname" name="installationdate">
+                <label for="warrantyExpDate" class="label">보증만료일  </label>
+                <input class = "inputbox_30p" type="text" id="fname" name="warrantyExpDate">
+                <div style="clear:both"></div>
+                
+                <label for="salesOrRent" class="label">판매/임대  </label>
+                <input class = "inputbox_30p" type="text" id="fname" name="salesOrRent">
+                <label for="NewOrOld" class="label">신규/중고  </label>
+                <input class = "inputbox_30p" type="text" id="fname" name="NewOrOld">
+                <div style="clear:both"></div>
+                
+                <label for="PC" class="label">BSK PC  </label>
+                <input class = "inputbox_30p" type="text" id="fname" name="salesOrRent">
+                <label for="NewOrOld" class="label">보증적용  </label>
+                <input class = "inputbox_30p" type="text" id="fname" name="NewOrOld">
+                <div style="clear:both"></div>
+                
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

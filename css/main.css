@@ -1,0 +1,14 @@
+.profile {
+    width: 100px; 
+    display: block;
+    margin-left:auto; 
+    margin-right:auto;
+}
+    
+
+.title_1 {
+    font-size : 100px ;
+    color:red;
+    letter-spacing:5px;
+    text-align : center;
+}
